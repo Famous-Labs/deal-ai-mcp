@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.deal/deal-ai",
+  "title": "Deal.ai",
+  "description": "Ask Deal.ai's shopping agent, compare every US store's price, check a deal and watch prices.",
+  "version": "1.0.0",
+  "websiteUrl": "https://deal.ai/mcp-server",
+  "icons": [
+    {
+      "src": "https://deal.ai/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    },
+    {
+      "src": "https://deal.ai/apple-icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "180x180"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://deal.ai/mcp"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "deal-ai": {
+      "type": "http",
+      "url": "https://deal.ai/mcp"
+    }
+  }
+}
