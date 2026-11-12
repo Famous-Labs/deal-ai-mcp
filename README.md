@@ -14,7 +14,7 @@ It's a hosted (remote) server, free with a Deal.ai account. This repository hold
 
 - **Claude:** Deal.ai is in Claude's connectors directory. In Claude, open Settings, then Connectors, choose **Browse connectors** and search for Deal.ai. Or choose **Add custom connector** and paste `https://deal.ai/mcp`.
 - **ChatGPT:** turn on developer mode in Settings under Apps, add a new app with `https://deal.ai/mcp` and choose OAuth.
-- **Cursor:** [Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=deal-ai&config=eyJ1cmwiOiJodHRwczovL2RlYWwuYWkvbWNwIn0=), or add [`.mcp.json`](.mcp.json)'s entry to `~/.cursor/mcp.json`.
+- **Cursor:** use the one-click **Add to Cursor** button on [deal.ai/mcp-server](https://deal.ai/mcp-server#connect), or add [`.mcp.json`](.mcp.json)'s entry to `~/.cursor/mcp.json`.
 - **VS Code:** [Install in VS Code](https://vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522deal-ai%2522%252C%2522type%2522%253A%2522http%2522%252C%2522url%2522%253A%2522https%253A%252F%252Fdeal.ai%252Fmcp%2522%257D), or add a remote server of type `http` with the address above to `.vscode/mcp.json`.
 - **Claude Code:** `claude mcp add --transport http deal-ai https://deal.ai/mcp`
 - **Any other client** that supports remote MCP servers over Streamable HTTP with OAuth sign-in.
