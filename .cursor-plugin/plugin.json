@@ -1,0 +1,16 @@
+{
+  "name": "deal-ai",
+  "version": "1.0.0",
+  "description": "Ask Deal.ai's shopping agent what to buy, compare every US store's price for the same product with its price history, check whether a deal is real, and watch prices.",
+  "author": {
+    "name": "Deal.ai",
+    "email": "support@deal.ai"
+  },
+  "homepage": "https://deal.ai/mcp-server",
+  "repository": "https://github.com/Famous-Labs/deal-ai-mcp",
+  "license": "MIT",
+  "keywords": ["shopping", "price-comparison", "deals", "price-tracking", "mcp"],
+  "logo": "./assets/logo.png",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

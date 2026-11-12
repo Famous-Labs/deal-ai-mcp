@@ -1,0 +1,11 @@
+{
+  "name": "deal-ai",
+  "version": "1.0.0",
+  "description": "Ask Deal.ai's shopping agent, compare every US store's price, check a deal and watch prices.",
+  "mcpServers": {
+    "deal-ai": {
+      "httpUrl": "https://deal.ai/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
